@@ -1,6 +1,10 @@
 <!doctype html>
+
+
+
 <html lang="en">
   <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -15,9 +19,11 @@
     
     <!-- Custom styles for this template -->
     <link href="style/signin.css" rel="stylesheet">
+
   </head>
 
   <body class="text-center">
+    
     <div class="mydiv">
       <div>
         <h1 class="h1 mb-4 fw-normal">Welcome to Sherry.Y's Personal Programming Demo Website</h1>
@@ -26,12 +32,12 @@
     
       <div >
         <main class="form-signin">
-          <form>
-
+          <form name="login" action="main.html" onsubmit="return validateLogin()" method="post">
+            <script type="text/javascript" src="util/loginValidation.js"></script>
             <h3 class="h3 mb-3 fw-normal">Please enter the password to login</h3>
 
             <div class="form-floating">
-              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="passwordInput">
               <label for="floatingPassword">Password</label>
             </div>
 
@@ -45,5 +51,6 @@
     </div>
 
   </body>
+
 
 </html>
