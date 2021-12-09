@@ -1,7 +1,5 @@
 <!doctype html>
 
-
-
 <html lang="en">
   <head>
 
@@ -26,15 +24,19 @@
     
     <div class="mydiv">
       <div>
-        <h1 class="h1 mb-4 fw-normal">Welcome to Sherry.Y's Personal Programming Demo Website</h1>
-        <h2 class="h2 mb-4 fw-normal">All demos here are non-commercial use</h2>
+        <h1 class="h1 mb-2 fw-normal">Welcome to Sherry.Y's Personal Programming Demo Website</h1>
+        <h2 class="h2 mb-5 fw-normal">All demos here are non-commercial use</h2>
       </div>
     
       <div >
-        <main class="form-signin">
-          <form name="login" action="main.html" onsubmit="return validateLogin()" method="post">
+        
+        <main>
+
+          <h3 class="h3 mb-1 fw-normal">Please enter the password to login</h3>
+
+          <form name="login" action="main.html" onsubmit="return validateLogin()" method="post" class="form-signin">
             <script type="text/javascript" src="util/loginValidation.js"></script>
-            <h3 class="h3 mb-3 fw-normal">Please enter the password to login</h3>
+            
 
             <div class="form-floating">
               <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="passwordInput">
@@ -43,14 +45,13 @@
 
             <button class="w-100 btn btn-lg btn-primary" type="submit">Log in</button>
 
-            <p class="mt-5 mb-3 text-muted">&copy; Sherry.Y Personal Programming Demo</p>
           </form>
+          <p class="mt-5 mb-3 text-muted">&copy; Sherry.Y Personal Programming Demo</p>
         </main>
       </div>
 
     </div>
 
   </body>
-
 
 </html>
