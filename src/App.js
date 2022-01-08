@@ -1,9 +1,14 @@
-import './style.css';
 import Header from './Headers/Header';
+import Content from './Contents/Content';
+import Footer from './Footers/Footer';
 
 function App() {
   return (
-    <Header />
+    <body>
+      <Header />
+      <Content />
+      <Footer />
+    </body>
   );
 }
 
