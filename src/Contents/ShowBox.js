@@ -15,7 +15,7 @@ const ShowBox = (project) => {
               <p class="card-text">{project.project.specification}</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a type="button" class="btn btn-sm btn-outline-secondary" href="https://www.linkedin.com/in/shujie-yang-74084a17a">Github</a>
+                  <a type="button" class="btn btn-sm btn-outline-secondary" href={project.project.githubLink}>Github</a>
                 </div>
                 <small class="text-muted">{project.project.type}</small>
               </div>
