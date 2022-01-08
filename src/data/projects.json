@@ -1,0 +1,54 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Diary Sale Website",
+      "description": "This project is a responsive web-application for diaries selling with customizable design, including customer sides and admin sides. Customers can browse available parameters, such as paper colour and size, for the diary, make orders, do payments, and write feedbacks, while admin can edit all parameters availability for customization, create or deactivate accounts for admins and customer users, see all the order information and generate purchase reports.",
+      "language": "It is implemented by PHP, JavaScript with HTML and CSS for front-end support, it also connects database based on SQL.",
+      "specification": "This is a team work project from my Master course - Software Engineering Project Management, and our team use Agile and Scrum methodology during developing this web application.",
+      "githubLink": "https://github.com/sherryysj/DiarySale",
+      "demoLink": null,
+      "type": "Web Application"
+    },
+    {
+      "id": 2,
+      "name": "Banking Application",
+      "description": "This project is a simulated banking application. It is able to check balances & transaction history, simulate transactions such as deposits and withdrawals, transfer money between accounts, schedule payments, modify a personal profile and perform some administrative tasks.",
+      "language": "It is implemented by .Net in C# with HTML, CSS as front-end support, and also with SQL database.",
+      "specification": "This is a project from my Master course - Web Development Technologies.",
+      "githubLink": "https://github.com/sherryysj/BankingAppClientSite",
+      "demoLink": null,
+      "type": "Web Application"
+    },
+    {
+      "id": 3,
+      "name": "Mock Facebook",
+      "description": "This project is to develop a web application to mock Facebook key-functions, includes create accounts, post, like and comment others’ posts, and delete posts.",
+      "language": "It is implemented by PHP with HTML and CSS for front-end support, and also use SQL and MongoDB database.",
+      "specification": "This is a project from my Master course - Database Application.",
+      "githubLink": "https://github.com/sherryysj/MockFacebook",
+      "demoLink": null,
+      "type": "Web Application"
+    },
+    {
+      "id": 4,
+      "name": "Tank War",
+      "description": "This project is game coding practice to remake an old game called Battle City.",
+      "language": "It is based on Unity and C#.",
+      "specification": "This is my personal code practice for game developing.",
+      "githubLink": "https://github.com/sherryysj/TankWar",
+      "demoLink": null,
+      "type": "Desktop Game"
+    },
+    {
+      "id": 5,
+      "name": "Pacman AI",
+      "description": "The project is to set AI for Pacman game, letting the packman can eat dots and avoid enemies automatically.",
+      "language": "It is implemented by Python, with machine learning technology.",
+      "specification": "This is a project from my Master course - Artificial Intelligence.",
+      "githubLink": null,
+      "demoLink": null,
+      "type": "Artificial Intelligence"
+    }
+  ]
+}
